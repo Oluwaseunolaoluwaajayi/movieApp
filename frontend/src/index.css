@@ -1,0 +1,192 @@
+/* src/pages/Index.css */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* index.css or App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151a1b;
+  color: white; /* Optional: default text color */
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+/* Home Page Styles */
+.global-container {
+  height: 100vh;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 7rem;
+}
+.p {
+  color: antiquewhite;
+}
+
+/* Index Page Styles */
+.index-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c2526;
+  color: antiquewhite;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/cinema-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: antiquewhite;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: antiquewhite;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.primary-btn {
+  background-color: antiquewhite;
+  color: #1c2526;
+}
+
+.primary-btn:hover {
+  background-color: #e6d9b3; /* Slightly darker antiquewhite */
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid antiquewhite;
+  color: antiquewhite;
+}
+
+.secondary-btn:hover {
+  background-color: #ffd700;
+  color: #1c2526;
+}
+
+.features-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: antiquewhite;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #2a3435;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+.footer-section {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #151a1b;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-link {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+.p {
+  color: antiquewhite;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  .nav-bar a:hover,
+  .nav-bar button:hover {
+    color: #747bff;
+  }
+  .auth-container {
+    background-color: #ffffff;
+  }
+}

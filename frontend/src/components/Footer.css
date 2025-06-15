@@ -1,0 +1,13 @@
+.footer-section {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #151a1b;
+  margin-bottom: 5rem;
+}
+
+.footer-section p {
+  margin: 0; /* Remove bottom margin since no other elements */
+  color: antiquewhite;
+  font-weight: 500;
+}
